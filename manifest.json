@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "CSE Launcher",
+  "description": "Quick launch Website that a Computer Sceince Egnineer need on daily basis",
+  "version": "1.0.0",
+  "icons": { "128": "cse128.png" },
+  "browser_action": {
+    "default_icon": "cse19.png",
+    "default_popup": "main.html"
+  },
+  "permissions": ["activeTab"]
+}

@@ -1,0 +1,340 @@
+
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 600px;
+  padding: 0;
+  width: 600px;
+}
+
+h1 {
+  font-family: "Menlo", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: #2f5876;
+}
+
+a:link,
+a:visited {
+  color: #000000;
+  outline: 0;
+  text-decoration: none;
+}
+
+img {
+  width: 30px;
+}
+
+.modal-header {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
+
+.modal-content {
+  padding: 0 22px;
+}
+
+.modal-icons {
+  border-top: 0.5px solid #dadada;
+  height: 50px;
+  width: 100%;
+}
+
+.logo {
+  padding: 16px;
+}
+
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+
+.version {
+  color: #444;
+  font-size: 18px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
+
+.flex {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 120px;
+}
+
+.flex:hover {
+  opacity: 0.4;
+}
+
+.flex .fa {
+  font-size: 40px;
+  color: #2f5876;
+  padding: 0px;
+}
+
+.hackerrank {
+  background: url("icons/hackerrank.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.hackerearth {
+  background: url("icons/hackerearth.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.codechef {
+  background: url("icons/codechef.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.codeforces {
+  background: url("icons/codeforces.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.leetcode {
+  background: url("icons/leetcode.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.geeksforgeeks {
+  background: url("icons/geeksforgeeks.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.stackoverflow {
+  background: url("icons/stackoverflow.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.edureka {
+  background: url("icons/edureka.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.udemy {
+  background: url("icons/udemy.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.coursera {
+  background: url("icons/coursera.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.intershala {
+  background: url("icons/intershala.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.angelist {
+  background: url("icons/angelist.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.code_project {
+  background: url("icons/code_project.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.w3school {
+  background: url("icons/w3school.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.tds {
+  background: url("icons/tds.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.pepinsta {
+  background: url("icons/pepinsta.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.gsoc {
+  background: url("icons/gsoc.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.fme {
+  background: url("icons/fme.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.kg {
+  background: url("icons/kg.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.interviewbuddy {
+  background: url("icons/interviewbuddy.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.interviewbit {
+  background: url("icons/interviewbit.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.kaggle {
+  background: url("icons/kaggle.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.indiabix {
+  background: url("icons/indiabix.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.glassdoor {
+  background: url("icons/glassdoor.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.gcc {
+  background: url("icons/gcc.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.jtp {
+  background: url("icons/jtp.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.gatesmasher {
+  background: url("icons/gatesmasher.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.firstnaukri {
+  background: url("icons/firstnaukri.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.mit {
+  background: url("icons/mit.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.sih {
+  background: url("icons/sih.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.tt {
+  background: url("icons.tt.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.aicte {
+  background: url("icons/aicte.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.infytq {
+  background: url("icons/infytq.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.tcsion {
+  background: url("icons/tcsion.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.tp {
+  background: url("icons/tp.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.typingracer {
+  background: url("icons/typingracer.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.trickymen {
+  background: url("icons/trickymen.png");
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
